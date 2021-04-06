@@ -84,19 +84,23 @@ https://www.fantasynamegenerators.com/instrument-names.php
 .txt-18 {
   font-size: 18px;
   line-height: 21px;
+  mso-line-height-rule:exactly;
 }
 .txt-28 {
   font-size: 28px;
   line-height: 33px;
+  mso-line-height-rule:exactly;
 }
 .txt-18-b {
   font-size: 16px;
   line-height: 19px;
   font-weight: bold;
+  mso-line-height-rule:exactly;
 }
 .txt-preheader {
   font-size: 11px;
   line-height: 13px;
+  mso-line-height-rule:exactly;
 }
 
 /*Headers*/
@@ -104,21 +108,25 @@ https://www.fantasynamegenerators.com/instrument-names.php
   font-size: 36px;
   line-height: 42px;
   font-weight: bold;
+  mso-line-height-rule:exactly;
 }
 .h2 {
   font-size: 28px;
   line-height: 33px;
   font-weight: bold;
+  mso-line-height-rule:exactly;
 }
 .h3 {
   font-size: 30px;
   line-height: 35px;
   font-weight: bold;
+  mso-line-height-rule:exactly;
 }
 .h4 {
   font-size: 24px;
   line-height: 28px;
   font-weight: bold;
+  mso-line-height-rule:exactly;
 }
 
 /*Paddings*/
@@ -128,8 +136,15 @@ https://www.fantasynamegenerators.com/instrument-names.php
 .pl-16 {
   padding-left: 16px;
 }
+.pl-18 {
+  padding-left: 18px;
+}
+
 .pl-8 {
   padding-left: 8px;
+}
+.pl-20 {
+  padding-left: 20px;
 }
 .pr-8 {
   padding-right: 8px;
@@ -137,8 +152,17 @@ https://www.fantasynamegenerators.com/instrument-names.php
 .pr-16 {
   padding-right: 16px;
 }
+.pr-18 {
+  padding-right: 18px;
+}
+.pt-8 {
+  padding-top: 8px;
+}
 .pt-16 {
   padding-top: 16px;
+}
+.pt-48 {
+  padding-top: 48px;
 }
 .pb-16 {
   padding-bottom: 16px;
@@ -146,17 +170,27 @@ https://www.fantasynamegenerators.com/instrument-names.php
 .pt-24 {
   padding-top: 24px;
 }
+.pb-8 {
+  padding-bottom: 8px;
+}
+
 .pb-24 {
   padding-bottom: 24px;
  }
 .pb-25 {
   padding-bottom: 25px;
 }
+.pb-26 {
+  padding-bottom: 26px;
+}
 .pb-32 {
   padding-bottom: 32px;
 }
 .pt-32 {
   padding-top: 32px;
+}
+.pt-36 {
+  padding-top: 36px;
 }
 .pt-40 {
   padding-top: 40px;
@@ -166,8 +200,28 @@ https://www.fantasynamegenerators.com/instrument-names.php
   padding-bottom: 40px;
 }
 
+.pb-48 {
+  padding-bottom: 48px;
+}
+
 .pt-56 {
   padding-top: 56px;
+}
+
+.pl-24 {
+  padding-left: 24px;
+}
+
+.pl-32 {
+  padding-left: 32px;
+}
+
+.pr-24 {
+  padding-right: 24px;
+}
+
+.pr-32 {
+  padding-right: 32px;
 }
 
 /*Margins*/
@@ -191,8 +245,16 @@ https://www.fantasynamegenerators.com/instrument-names.php
   margin-top: 12px;
 }
 
+.mt-20 {
+  margin-top: 20px;
+}
+
 .mt-24 {
   margin-top: 24px;
+}
+
+.mt-26 {
+  margin-top: 26px;
 }
 
 .mt-16 {
@@ -207,16 +269,36 @@ https://www.fantasynamegenerators.com/instrument-names.php
   margin-top: 32px;
 }
 
+.mt-36 {
+  margin-top: 36px;
+}
+
+.mt-48 {
+  margin-top: 48px;
+}
+
 .mt-56 {
   margin-top: 56px;
+}
+
+.ml-10 {
+  margin-left: 10px;
 }
 
 .ml-16 {
   margin-left: 16px;
 }
 
+.ml-24 {
+  margin-left: 24px;
+}
+
 .mr-8 {
   margin-right: 8px;
+}
+
+.mr-10 {
+  margin-right: 10px;
 }
 
 .mr-98 {
@@ -248,6 +330,10 @@ https://www.fantasynamegenerators.com/instrument-names.php
   text-decoration: none;
 }
 
+.tt-up {
+  text-transform: uppercase;
+}
+
 /*Fonts*/
 .fs-0 {
   font-size: 0;
@@ -255,6 +341,10 @@ https://www.fantasynamegenerators.com/instrument-names.php
 
 .fs-11 {
   font-size: 11px;
+}
+
+.fs-13 {
+  font-size: 13px;
 }
 
 .fs-14 {
@@ -271,29 +361,34 @@ https://www.fantasynamegenerators.com/instrument-names.php
 
 .lh-13 {
   line-height: 13px;
+  mso-line-height-rule:exactly;
+}
+
+.lh-15 {
+  line-height: 15px;
+  mso-line-height-rule:exactly;
 }
 
 .lh-16 {
   line-height: 16px;
+  mso-line-height-rule:exactly;
 }
 
 .lh-20 {
   line-height: 20px;
+  mso-line-height-rule:exactly;
 }
 
 .lh-111 {
   line-height: 111px;
+  mso-line-height-rule:exactly;
 }
 
 .f-trebushet {
   font-family: "Trebuchet MS", sans-serif;
-  font-style: normal;
-  font-weight: normal;
 }
 .f-roboto {
   font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: normal;
 }
 
 .fs-n {
@@ -311,4 +406,24 @@ https://www.fantasynamegenerators.com/instrument-names.php
 /*Borders*/
 .br-5 {
   border-radius: 5px;
+}
+
+.br-15 {
+  border-radius: 15px;
+}
+
+.tsa-100 {
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+.tsa-none {
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+}
+
+.sp-100 {
+  mso-style-priority: 100 !important;
 }
