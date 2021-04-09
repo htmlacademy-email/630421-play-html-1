@@ -404,12 +404,20 @@ https://www.fantasynamegenerators.com/instrument-names.php
 }
 
 /*Borders*/
+.b-0 {
+  border: 0;
+}
+
 .br-5 {
   border-radius: 5px;
 }
 
 .br-15 {
   border-radius: 15px;
+}
+
+.o-none {
+  outline: none;
 }
 
 .tsa-100 {
@@ -426,4 +434,8 @@ https://www.fantasynamegenerators.com/instrument-names.php
 
 .sp-100 {
   mso-style-priority: 100 !important;
+}
+
+.im-bicubic {
+  -ms-interpolation-mode: bicubic;
 }
