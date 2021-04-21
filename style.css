@@ -140,6 +140,14 @@ https://www.fantasynamegenerators.com/instrument-names.php
   padding-left: 18px;
 }
 
+.pl-4 {
+  padding-left: 4px;
+}
+
+.pr-4 {
+  padding-right: 4px;
+}
+
 .pl-8 {
   padding-left: 8px;
 }
