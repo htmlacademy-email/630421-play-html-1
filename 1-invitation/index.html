@@ -46,6 +46,78 @@
         padding-top: 48px;
       }
 
+      .title {
+        font-size: 28px;
+        line-height: 32px;
+      }
+
+      .subtitle {
+        padding-bottom: 4px;
+        font-size: 16px;
+        line-height: 18px;
+      }
+
+      .date-block-wrapper {
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-bottom: 0;
+      }
+
+      .date-block {
+        padding-left: 0;
+        padding-right: 0;
+        max-width: none !important;
+      }
+
+      .date-image {
+        height: auto !important;
+        max-width: none !important;
+        max-height: none !important;
+      }
+
+      .descr-wrapper {
+        padding-top: 24px;
+        padding-bottom: 24px;
+      }
+
+      .descr-title {
+        padding-top: 24px;
+      }
+
+      .descr-item {
+        vertical-align: top;
+      }
+
+      .descr-item_point {
+        padding-top: 5px;
+      }
+
+      .descr-text-item {
+        padding-left: 20px;
+      }
+
+      .content-image-wrapper {
+        padding-top: 0;
+        padding-left: 16px;
+        padding-right: 16px;
+      }
+
+      .content-image {
+        width: 254px !important;
+        height: 286px !important;
+        max-width: none !important;
+        max-height: none !important;
+      }
+
+      .prize-wrapper {
+        padding-top: 0;
+      }
+
+      .prize-title {
+        font-size: 24px;
+        line-height: 28px;
+      }
+
     }
   </style>
 </head>
@@ -90,7 +162,7 @@
         <table width="100%" align="center" cellpadding="0" cellspacing="0" border="0" class="bg-ikiom">
           <tr>
             <td>
-              <h2 class="h1 c-oprek ta-c m-0"><b>Хотите научиться web-разработке?</b></h2>
+              <h2 class="h1 c-oprek ta-c m-0 title"><b>Хотите научиться web-разработке?</b></h2>
             </td>
           </tr>
         </table>
@@ -99,7 +171,7 @@
         <table width="100%" align="center" cellpadding="0" cellspacing="0" border="0" class="bg-ikiom">
           <tr>
             <td>
-              <p class="m-0 c-peyo pt-16 pb-24 pl-16 pr-16 ta-c h4">
+              <p class="m-0 c-peyo pt-16 pb-24 pl-16 pr-16 ta-c h4 subtitle">
                 Приглашаем Вас на&nbsp;бесплатный вебинар
                 &laquo;Тренды Frontend-разработки 2020&raquo;
               </p>
@@ -108,17 +180,17 @@
         </table>
 
         <!--        Секция с датой вебинара-->
-        <table width="100%" align="center" cellpadding="0" cellspacing="0" border="0" class="bg-ikiom pb-32">
+        <table width="100%" align="center" cellpadding="0" cellspacing="0" border="0" class="bg-ikiom pb-32 date-block-wrapper">
           <tr>
-            <td class="fs-0 ta-c tsa-none">
+            <td class="fs-0 ta-c tsa-none" align="center">
 <!--              [if mso]
               <table border="0" cellspacing="0" cellpadding="0">
                 <tr>
                   <td width="200px" style="vertical-align:top; font-size:0; line-height:0;">
                   <![endif]-->
-              <div class="d-ib va-t pl-8 pr-8">
+              <div class="d-ib va-t pl-8 pr-8 date-block" style="width: 100%;max-width: 200px">
                 <!--          Блок с датой вебинара-->
-                <table width="100%" align="center" cellpadding="0" cellspacing="0" border="0" class="bg-peyo br-5 pb-25" style="min-width: 200px;height: 286px;">
+                <table width="100%" align="center" cellpadding="0" cellspacing="0" border="0" class="bg-peyo br-5 pb-25">
                   <tr>
                     <td>
                       <p class="m-0 h1 c-ikiom ta-c mt-16">
@@ -161,7 +233,7 @@
                       <img
                         src="https://raw.githubusercontent.com/nullorone/630421-play-html-1/master/1-invitation/img/pic-1.jpg"
                         alt="Иллюстрация просмотра вебинара"
-                        class="d-b b-0 o-none td-none im-bicubic"
+                        class="d-b b-0 o-none td-none im-bicubic date-image"
                         width="256"
                         height="234"
                         border="0"
@@ -179,7 +251,7 @@
           </tr>
         </table>
         <!--        Секция с описанием вебинара-->
-        <table width="100%" align="center" cellpadding="0" cellspacing="0" border="0" class="bg-oprek pl-16 pr-16 pt-40 pb-40">
+        <table width="100%" align="center" cellpadding="0" cellspacing="0" border="0" class="bg-oprek pl-16 pr-16 pt-40 pb-40 descr-wrapper">
           <tr>
             <td>
               <p class="m-0 fs-18 lh-20 c-ikiom tsa-none">
@@ -187,7 +259,7 @@
                 вырасти в&nbsp;востребованного специалиста. Все вопросы&nbsp;Вы сможете задать спикеру на&nbsp;вебинаре
                 :)
               </p>
-              <h2 class="m-0 mt-32 h3 c-ikiom">
+              <h2 class="m-0 pt-32 h3 c-ikiom descr-title">
                   План вебинара:
               </h2>
             </td>
@@ -196,55 +268,103 @@
             <td>
               <table width="100%" align="center" cellpadding="0" cellspacing="0" border="0" class="mt-16">
                 <tr>
-                  <td style="width: 12px;">
-                    <img
-                      src="https://raw.githubusercontent.com/nullorone/630421-play-html-1/master/1-invitation/img/ellipse.png"
-                      alt="Иконка круга"
-                      class="d-b b-0 o-none td-none im-bicubic"
-                      width="12"
-                      height="12"
-                      border="0">
-                  </td>
-                  <td>
-                    <p class="m-0 ml-16 txt-18 c-ikiom tsa-none">
-                      Кто такой frontend-разработчик?
-                    </p>
+                  <td class="fs-0">
+                    <!--              [if mso]
+              <table border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td width="12px" style="vertical-align:middle; font-size:0; line-height:0;">
+                  <![endif]-->
+                    <div class="d-ib va-m descr-item descr-item_point" style="width: 12px;">
+                      <img
+                        src="https://raw.githubusercontent.com/nullorone/630421-play-html-1/master/1-invitation/img/ellipse.png"
+                        alt="Иконка круга"
+                        class="d-b b-0 o-none td-none im-bicubic"
+                        width="12"
+                        height="12"
+                        border="0">
+                    </div>
+                    <!--              [if mso]
+                 </td>
+                 <td width="400px" style="vertical-align:middle; font-size:0; line-height:0;">
+                   <![endif]-->
+                    <div class="d-ib va-m descr-item" style="max-width: 80%">
+                      <p class="m-0 pl-12 txt-18 c-ikiom tsa-none descr-text-item">
+                        Кто такой frontend&nbsp;-&nbsp;разработчик?
+                      </p>
+                    </div>
+                    <!--                  [if mso]
+                                </td>>
+                              </tr>
+                            </table>
+                            <![endif]-->
                   </td>
                 </tr>
               </table>
               <table width="100%" align="center" cellpadding="0" cellspacing="0" border="0" class="mt-8">
                 <tr>
-                  <td style="width: 12px;">
-                    <img
-                      src="https://raw.githubusercontent.com/nullorone/630421-play-html-1/master/1-invitation/img/triangle.png"
-                      alt="Иконка треугольника"
-                      class="d-b b-0 o-none td-none im-bicubic"
-                      width="12"
-                      height="12"
-                      border="0">
-                  </td>
-                  <td>
-                    <p class="m-0 ml-16 c-ikiom txt-18 tsa-none">
-                      Какие навыки сейчас востребованы?
-                    </p>
+                  <td class="fs-0">
+                    <!--              [if mso]
+              <table border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td width="12px" style="vertical-align:middle; font-size:0; line-height:0;">
+                  <![endif]-->
+                    <div class="d-ib va-m descr-item descr-item_point" style="width: 12px;">
+                      <img
+                        src="https://raw.githubusercontent.com/nullorone/630421-play-html-1/master/1-invitation/img/triangle.png"
+                        alt="Иконка треугольника"
+                        class="d-b b-0 o-none td-none im-bicubic"
+                        width="12"
+                        height="12"
+                        border="0"/>
+                    </div>
+                    <!--              [if mso]
+                 </td>
+                 <td width="400px" style="vertical-align:middle; font-size:0; line-height:0;">
+                   <![endif]-->
+                    <div class="d-ib va-m descr-item" style="max-width: 80%">
+                      <p class="m-0 pl-12 c-ikiom txt-18 tsa-none descr-text-item">
+                        Какие навыки сейчас востребованы?
+                      </p>
+                    </div>
+                    <!--                  [if mso]
+                               </td>>
+                             </tr>
+                           </table>
+                           <![endif]-->
                   </td>
                 </tr>
               </table>
               <table width="100%" align="center" cellpadding="0" cellspacing="0" border="0" class="mt-8">
                 <tr>
-                  <td style="width: 12px;">
-                    <img
-                      src="https://raw.githubusercontent.com/nullorone/630421-play-html-1/master/1-invitation/img/rectangle.png"
-                      alt="Иконка квадрата"
-                      class="d-b b-0 o-none td-none im-bicubic"
-                      width="12"
-                      height="12"
-                      border="0"/>
-                  </td>
-                  <td>
-                    <p class="m-0 ml-16 c-ikiom txt-18 tsa-none">
-                      Как устроиться в&nbsp;компанию после обучения?
-                    </p>
+                  <td class="fs-0">
+                    <!--              [if mso]
+              <table border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td width="12px" style="vertical-align:middle; font-size:0; line-height:0;">
+                  <![endif]-->
+                    <div class="d-ib va-m descr-item descr-item_point" style="width: 12px;">
+                      <img
+                        src="https://raw.githubusercontent.com/nullorone/630421-play-html-1/master/1-invitation/img/rectangle.png"
+                        alt="Иконка квадрата"
+                        class="d-b b-0 o-none td-none im-bicubic"
+                        width="12"
+                        height="12"
+                        border="0"/>
+                    </div>
+                    <!--              [if mso]
+                 </td>
+                 <td width="400px" style="vertical-align:middle; font-size:0; line-height:0;">
+                   <![endif]-->
+                    <div class="d-ib va-m descr-item" style="max-width: 80%">
+                      <p class="m-0 pl-12 c-ikiom txt-18 tsa-none descr-text-item">
+                        Как устроиться в&nbsp;компанию после обучения?
+                      </p>
+                    </div>
+                    <!--                  [if mso]
+                               </td>>
+                             </tr>
+                           </table>
+                           <![endif]-->
                   </td>
                 </tr>
               </table>
@@ -302,13 +422,13 @@
           <tr>
             <td>
               <!--        Контентное изображение-->
-              <table width="100%" align="center" cellpadding="0" cellspacing="0" border="0" class="mt-16">
+              <table width="100%" align="center" cellpadding="0" cellspacing="0" border="0" class="pt-16 content-image-wrapper">
                 <tr>
                   <td align="center">
                     <img
                       src="https://raw.githubusercontent.com/nullorone/630421-play-html-1/master/1-invitation/img/pic-2.jpg"
                       alt="Иллюстрация взаимодействия на вебинаре"
-                      class="d-b b-0 o-none td-none im-bicubic"
+                      class="d-b b-0 o-none td-none im-bicubic content-image"
                       width="254"
                       height="286"
                       border="0"
@@ -321,10 +441,10 @@
         </table>
 
         <!--Заголовок розыгрыша призов-->
-        <table width="100%" align="center" cellpadding="0" cellspacing="0" border="0" class="pt-16 bg-ikiom">
+        <table width="100%" align="center" cellpadding="0" cellspacing="0" border="0" class="pt-16 bg-ikiom prize-wrapper">
           <tr>
             <td>
-              <h2 class="m-0 h3 c-vluri ta-c">
+              <h2 class="m-0 h3 c-vluri ta-c prize-title">
                   Среди участников вебинара
                   будут разыграны ценные призы!
               </h2>

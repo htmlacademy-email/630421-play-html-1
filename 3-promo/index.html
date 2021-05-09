@@ -44,6 +44,14 @@
         text-align: center;
       }
 
+      .offer-block-wrapper {
+        width: 100%;
+      }
+
+      .offer-block {
+        border-top-right-radius: 15px;
+      }
+
       .header-social {
         padding-bottom: 24px;
       }
@@ -69,8 +77,30 @@
         margin-top: 0;
       }
 
+      .section-feedack {
+        padding-bottom: 32px;
+      }
+
+      .feedback {
+        padding-right: 16px;
+        padding-bottom: 32px;
+      }
+
+      .feedback-block {
+        padding-top: 28px;
+        margin-left: 0;
+      }
+
+      .section-popular {
+        padding-bottom: 32px;
+      }
+
       .feature-title {
         padding-top: 56px;
+      }
+
+      .feature-text-block {
+        width: 78% !important;
       }
 
       .footer {
@@ -200,15 +230,15 @@
         <!--Секция с курсами-->
         <table width="100%" align="center" cellpadding="0" cellspacing="0" border="0" class="br-15 pb-8 bg-ikiom">
           <tr>
-            <td>
+            <td align="center">
               <!--              [if mso]
                             <table border="0" cellspacing="0" cellpadding="0">
                               <tr>
                                 <td width="284px" style="vertical-align:top; font-size:0; line-height:0;">
                                 <![endif]-->
-              <div class="d-ib va-t">
+              <div class="d-ib va-t offer-block-wrapper">
                 <!--              Блок с текстом скидки-->
-                <table width="100%" align="center" cellpadding="0" cellspacing="0" border="0" class="bg-peyo pl-32 pt-32 pr-32 pb-32" style="border-top-left-radius: 15px; box-sizing: border-box">
+                <table width="100%" align="center" cellpadding="0" cellspacing="0" border="0" class="bg-peyo pl-32 pt-32 pr-32 pb-32 offer-block" style="border-top-left-radius: 15px; box-sizing: border-box">
                   <tr>
                     <td>
                       <p class="m-0 h1 c-ikiom tt-up">
@@ -546,7 +576,7 @@
 
 
         <!--        Секция с отзывом-->
-        <table width="100%" align="center" cellpadding="0" cellspacing="0" border="0" class="mt-24 br-15 bg-ikiom pt-32 pb-40">
+        <table width="100%" align="center" cellpadding="0" cellspacing="0" border="0" class="mt-24 br-15 bg-ikiom pt-32 pb-48 section-feedack">
           <tr>
             <td>
               <h2 class="m-0 h4 c-clilp ta-c">
@@ -557,16 +587,16 @@
           <tr>
             <td>
               <!--              Блок с отзывом-->
-              <table width="100%" align="center" cellpadding="0" cellspacing="0" border="0" class="mt-24 pb-40 pl-16">
+              <table width="100%" align="center" cellpadding="0" cellspacing="0" border="0" class="pb-40 pl-16 feedback">
                 <tr>
-                  <td class="fs-0 tsa-none">
+                  <td class="fs-0 tsa-none" align="center">
                     <!--              [if mso]
                             <table border="0" cellspacing="0" cellpadding="0">
                               <tr>
                                 <td width="120px" style="vertical-align:top; font-size:0; line-height:0;">
                                 <![endif]-->
                     <!--                      Аватарка-->
-                    <div class="d-ib va-t" style="width: 120px;">
+                    <div class="d-ib va-t pt-24" style="width: 120px;">
                       <img
                         src="https://raw.githubusercontent.com/nullorone/630421-play-html-1/master/3-promo/img/anna.jpg"
                         alt="Фотография Анны"
@@ -574,20 +604,21 @@
                         width="120"
                         height="120"
                         border="0"/>
+                      <p class="m-0 txt-18 pt-8">Анна</p>
                     </div>
                     <!--              [if mso]
              </td>
            <td width="392px" style="vertical-align:top; font-size:0; line-height:0;">
    <![endif]-->
                     <!--                    Отзыв-->
-                    <div class="d-ib va-t ml-24" style="max-width: 392px">
+                    <div class="d-ib va-t ml-24 ta-l pt-24 feedback-block" style="max-width: 392px">
                       <p class="m-0 txt-18-b c-vluri tsa-none">
                         <b>
                           Очень понравился курс!
                         </b>
                       </p>
                       <p class="m-0 mt-16 txt-18 tsa-none" style="color: #000000">
-                        Так как я&nbsp;уже имела дело с&nbsp;HTML и&nbsp;CSS, то&nbsp;в&nbsp;принципе никаких
+                        Так как я&nbsp;уже имела дело с&nbsp;HTML и&nbsp;CSS,<br/> то&nbsp;в&nbsp;принципе никаких
                         трудностей у&nbsp;меня не&nbsp;возникло.
                         Хотелось&nbsp;бы просто указать маленький (почти незаметный минус, который не&nbsp;влияет на&nbsp;восприятие
                         материала): в&nbsp;практических заданиях, как мне показалось будет засчитано задание, если
@@ -622,7 +653,7 @@
         </table>
 
         <!--        Секция популярных курсов-->
-        <table width="100%" align="center" cellpadding="0" cellspacing="0" border="0" class="br-15 bg-ikiom mt-24 pt-32 pb-48">
+        <table width="100%" align="center" cellpadding="0" cellspacing="0" border="0" class="br-15 bg-ikiom mt-24 pt-32 pb-48 section-popular">
           <tr>
             <td>
               <!--        Заголовок-->
@@ -836,7 +867,7 @@
                                  </td>
                                <td width="480px" style="vertical-align:top; font-size:0; line-height:0;">
                        <![endif]-->
-                    <div class="d-ib va-t ml-16">
+                    <div class="d-ib va-t ml-16 feature-text-block" style="width: 80%;">
                       <p class="m-0 txt-18 tsa-none" style="color: #000000">
                         <b>
                           Более 30&nbsp;курсов
@@ -877,14 +908,14 @@
                                  </td>
                                <td width="480px" style="vertical-align:top; font-size:0; line-height:0;">
                        <![endif]-->
-                    <div class="d-ib va-t ml-16">
+                    <div class="d-ib va-t ml-16 feature-text-block" style="width: 80%;">
                       <p class="m-0 txt-18 tsa-none" style="color: #000000">
                         <b>
                           Только актуальные знания
                         </b>
                       </p>
                       <p class="m-0 txt-18 tsa-none">
-                        Все преподаватели являются практикующими<br/> разработчиками, следят за&nbsp;трендами и&nbsp;постоянно<br/>обновляют программу курса.
+                        Все преподаватели являются практикующими<br/> разработчиками, следят за&nbsp;трендами и&nbsp;постоянно обновляют программу курса.
                       </p>
                     </div>
                     <!--              [if mso]
@@ -918,7 +949,7 @@
                                  </td>
                                <td width="480px" style="vertical-align:top; font-size:0; line-height:0;">
                        <![endif]-->
-                    <div class="d-ib va-t ml-16">
+                    <div class="d-ib va-t ml-16 feature-text-block" style="width: 80%;">
                       <p class="m-0 txt-18 tsa-none" style="color: #000000">
                         <b>
                           База лучших вакансий
