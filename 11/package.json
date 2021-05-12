@@ -1,0 +1,11 @@
+{
+  "name": "630421-play-html-1",
+  "version": "1.0.0",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-inline-css": "^4.0.0",
+    "gulp-rename": "^2.0.0"
+  }
+}
